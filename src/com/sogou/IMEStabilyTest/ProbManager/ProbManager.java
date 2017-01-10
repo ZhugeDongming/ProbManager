@@ -31,14 +31,6 @@ public class ProbManager{
 		this.m_iTotalProbility = 0;
 	}
 	
-	public void InitFuncs(){
-		this.AddAction("打字" , 10 );
-		this.AddAction("换皮肤" , 20 );
-		this.AddAction("安装皮肤" , 30 );
-		this.AddAction("退出键盘" , 40 );
-		this.AddAction("调起键盘" , 50 );
-		this.AddAction("覆盖安装" , 60 );
-	}
 	
 	public void AddAction(String strActionName , int iProbability ){
 		Vector vporbability = new Vector();
